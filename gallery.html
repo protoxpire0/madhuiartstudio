@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title> Madhuri Art Studio | Gallery</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/foundation.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+</head>
+
+<body class="animated fadeInDown">
+	<div class="container background-white logo-banner">
+		<a href="index.html"><img src="logo/logo.gif" id="logo"></a>
+	</div>
+
+	<nav id="main">
+	    <ul>
+	   	    <li><a href="index.html">Home</a></li>
+	      	<li><a href="about.html">About Me</a></li>
+	      	<li><a href="gallery.html">Gallery</a></li>
+	      	<li><a href="class.html">Art Class</a></li>
+	      	<li><a href="contacts.html">Contacts</a></li>
+	    </ul>
+	</nav>
+
+	<div class="container-spacy background-gallery top-banner">
+		<h2 class="animated fadeInDown">Gallery</h2>
+		<h3 class="animated fadeInDown">Check out my works and buy them for your home directly from my studio</h3>
+	</div>
+
+	<div class="container controls animated fadeInDown">
+		<h4> Sort By Categories: </h4>
+		<ul>
+		<li class="button button-category filter" data-filter="all">All</li>
+		<li class="button button-category filter" data-filter=".Acrylic">Acrylic</li>
+		<li class="button button-category filter" data-filter=".Oil">Oil</li>
+	</div>
+
+	<!-- PICTURE LISTS HERE -->
+	<div class="container-gallery background-white">
+		<div class="gallery" id="mixItUp">
+			<div class="row clearing-thumbs animated fadeInDown" data-clearing>
+				<div class="mix Acrylic">
+					<a href="products/1.html" class="th"><img src="image/1-th.jpg"></a>
+				</div>
+				<div class="mix Acrylic">
+					<a href="products/2.html" class="th"><img src="image/2-th.jpg"></a>
+				</div>
+				<div class="mix Acrylic">
+					<a href="products/3.html" class="th"><img src="image/3-th.jpg"></a>
+				</div>
+				<div class="mix Acrylic">
+					<a href="products/4.html" class="th"><img src="image/4-th.jpg"></a>
+				</div>
+				<div class="mix Oil">
+					<a href="products/5.html" class="th"><img src="image/5-th.jpg"></a>
+				</div>
+				<div class="mix Acrylic">
+					<a href="products/6.html" class="th"><img src="image/6-th.jpg"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="container-spacy background-midnight ">
+		<div class="row">
+			<div class="large-4 column footer">
+				<h4>Site Map</h4>
+				<a href="index.html"> Home <br></a>
+				<a href="about.html"> About Me <br></a>
+				<a href="gallery.html"> Gallery <br></a>
+				<a href="class.html"> Art Class <br></a>
+				<a href="contacts.html"> Contacts <br></a>
+			</div>
+			<div class="large-4 column footer">
+				<a href="contacts.html"><button class="button button-footer">Contact Us Now</button></a>
+			</div>
+			<div class="large-4 column footer">
+				<h4>Social Media</h4>
+				<a href="https://www.instagram.com/madhuri_art_fun/"> Instagram <br></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container background-black copyright">
+		<p>Copyright @ 2016 Digitouch. Created by Fahim Shahreer</p>
+	</div>
+
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+
+	<!-- src="http://cdn.foundation5.zurb.com/foundation.js -->
+	<script src="main.js"></script>
+	<script>
+		$(function(){
+		// Instantiate MixItUp:
+			$('#mixItUp').mixItUp();
+		});
+	</script>
+	<script>
+		$(document).foundation();
+	</script>
+
+</body>
+
+</html>

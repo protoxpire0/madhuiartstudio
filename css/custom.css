@@ -1,0 +1,388 @@
+@media all and (max-width: 480px) {
+  .intro-photo-main { display: none; }
+}
+
+body{
+	font-family: "Open Sans";
+	background-color: #ECF0F1;
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: "lato";
+}
+
+.background-red{
+	background-color: #D64541;
+}
+.background-blue{
+	background-color: #53A2D4;
+}
+.background-black{
+	background-color: #191b1c;
+}
+.background-midnight{
+	background-color: #1F2B39;
+}
+.background-white{
+	background-color: #fff;
+}
+.background-class{
+	background: url("../img/kids-ed.jpg") no-repeat center center fixed;
+	height: 400px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.background-bio{
+	background: url("../img/bio.jpg") no-repeat center center fixed;
+	height: 400px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.background-location{
+	background: url("../img/location-ed.jpg") no-repeat center center fixed;
+	height: 400px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.background-gallery{
+	background: url("../img/gallery-ed.jpg") no-repeat center center fixed;
+	height: 400px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/*
+* index 2
+*/
+.intro-canvas{
+	border: 5px double #bdc3c7;
+	margin-left: 5%;
+	width: 340px;
+	min-height: 100% !important;
+	height: 100%;
+	margin-top: 80px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	text-align: center;
+}
+#index-logo{
+	max-width: 300px;
+	margin-bottom: 100px;
+	padding: 20px;
+	border: 5px double #bdc3c7;
+	border-right: none;
+	border-left: none;
+}
+.intro-canvas h3{
+	color: #7f8c8d;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+.intro-photo{
+	padding: 50px;
+	height: 800px;
+}
+
+.button-index{
+	text-transform: uppercase;
+	color: #7f8c8d;
+	padding: 15px 30px;
+	font-size: 1em;
+	font-weight: 600;
+	margin-top: 20px;
+	border: 2px solid #7f8c8d;
+	background-color: transparent;
+}
+.button-index:hover{
+	background-color: transparent;
+	border: 2px solid #7f8c8d;
+	color: black;
+}
+
+/*
+* header
+*/
+.logo-banner{
+	height: 125px;
+	text-align: center;
+}
+.logo-banner img{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-height: 85px;
+}
+/*.fixed{
+	top: 0px;
+	position: fixed;
+	width: 100%;
+	margin-bottom: 50px;
+}*/
+nav#main {
+	padding: 15px 0;
+	background-color: #191b1c;
+}
+nav#main ul{
+	background-color: ;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+nav#main ul li{
+	display: inline-block;
+	margin-left: 40px;
+}
+nav#main ul li a{
+	letter-spacing: 1px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #BDC3C7;
+}
+nav#main ul li a:hover{
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: white;
+}
+
+
+.container-spacy{
+	padding-top: 40px;
+}
+.container{
+	margin: 0 auto;
+}
+
+.top-banner h2{
+	margin-top: 40px;
+	color: white;
+	padding-bottom: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 600;
+}
+.top-banner h3{
+	font-family: 'lato';
+	font-size: 1.2em;
+	font-weight: 400;
+	margin-top: 40px;
+	color: white;
+	text-align: center;
+}
+.top-banner h5{
+	font-size: 1em;
+	font-weight: 300;
+	color: white;
+	padding-bottom: 40px;
+	text-align: center;
+}
+/*
+* BIO
+*/
+
+.portrait{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 350px;
+}
+.bio{
+	background-color: white;
+	padding: 50px;
+	margin-bottom: 40px;
+}
+.bio h2{
+	font-size: 2.5em;
+	margin-bottom: 30px;
+}
+
+/*
+* CLASS
+*/
+
+.class-info h3{
+	color: black;
+	margin: 20px 0;
+}
+.class-info{
+	padding: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.class-info-inverse{
+	background-color: #53A2D4;
+	color: white;
+}
+.class-info-inverse h3{
+	color: white;
+}
+.class-info-2{
+	padding: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.slider {
+	margin-top:;
+	margin-left: 30px;
+	background-color: #53A2D4;
+	padding: 5px;
+	width: 500px;
+    height: 385px;
+}
+.slider-image{
+	width: 500px;
+    height: 375px;
+}
+
+.frame{
+	padding-left: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+/*
+* GALLERY
+*/
+.controls{
+	text-align: center;
+}
+.controls h4{
+	font-size: 1.2em;
+	font-weight: 400;
+	padding-top: 40px;
+}
+.button-category{
+	padding: 10px;
+	color: #7f8c8d;
+	font-size: 1em;
+	font-weight: 400;
+	margin-top: 10px;
+	border: 1px solid #7f8c8d;
+	background-color: transparent;
+}
+.button-category:hover{
+	background-color: transparent;
+	border-color: black;
+	color: black;
+}
+
+
+.gallery{
+	margin: 0 10%;
+	text-align: left;
+}
+#mixItUp .mix{
+	padding: 40px 20px;
+	width: 380px;
+	display: none;
+}
+
+
+/*
+* contacts
+*/
+.contacts{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.contacts p{
+	font-weight: 300;
+}
+.info{
+	background-color: white;
+	margin-right: 10px;
+	margin-bottom: 40px;
+}
+.contacts-image{
+	width: 100px;
+	margin: 20px 0;
+}
+.contacts a{
+	color: black;
+}
+
+/*
+* FOOTER
+*/
+.footer{
+	text-align: center;
+	padding: 50px;
+}
+.footer h4{
+	color: #bdc3c7;
+	font-size: 1.4em;
+	font-weight: 400;
+}
+.footer a{
+	color: #bdc3c7;
+	font-size: 1em;
+	font-weight: 300;
+}
+.footer a:hover{
+	color: white;
+}
+.button-footer{
+	color: #7f8c8d;
+	font-size: 1.3em;
+	margin-top: 40px;
+	border: 1px solid #7f8c8d;
+	background-color: transparent;
+}
+.button-footer:hover{
+	color: white;
+	border-color: white;
+	background-color: transparent;
+}
+.copyright{
+	text-align: center;
+	padding: 15px 0 1px 0;
+	color: #7f8c8d;
+	font-size: 0.8em;
+	font-weight: 300;
+}
+
+
+
+/*
+*PRODUCTS PAGE
+*/
+.product{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.product-info{
+	background-color: white;
+	padding: 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.product-info h2{
+	font-size: 2.5em;
+	margin-bottom: 30px;
+}
+.product-info h3{
+	font-size: 1.5em;
+	margin: 30px 0;
+}
+.product-info h4{
+	font-size: 0.9em;
+	margin-top: 60px;
+	font-weight: 400;
+	color: grey;
+}
+
+.button-product{
+	color: #7f8c8d;
+	font-size: 1.3em;
+	margin-top: 10px;
+	border: 1px solid #7f8c8d;
+	background-color: transparent;
+}
+.button-product:hover{
+	background-color: transparent;
+	border-color: black;
+	color: black;
+}

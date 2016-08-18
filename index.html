@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title> Madhuri Art Studio </title>
+	<charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+	<link rel="stylesheet" href="css/foundation.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+</head>
+
+<body style="height:100%">
+	<div class="container background-white-index" style="height:100%">
+		<div class="row"> 
+			<div class="large-6 small-12 column intro-canvas animated fadeInDown">
+				<h3> Welcome To </h3>
+				<img src="logo/logo.gif" id="index-logo">
+				<a id="ma" href="about.html" class="button button-index">Enter</a>
+				<!-- <a href="class.html" class="button button-index">Art Class</a> -->
+			</div>
+			<div class="show-for-xlarge-only large-6 column intro-photo-main animated fadeInDown">
+				<img src="img/abstract1.jpg" class="intro-photo">
+			</div>
+		</div>
+	</div>
+
+	<script>
+	$('a').click(function(event){
+		event.preventDefault();
+		newLocation = this.href;
+		$('body').addClass('animted fadeOutDown');
+	});
+
+	function newpage(){
+		window.location = newLocation;
+	}
+	</script>
+</body>
+
+</html>
